@@ -3,7 +3,7 @@ PRODUCT_PACKAGES += \
     ElmyraService
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-portalrom
 
 # Parts
 PRODUCT_PACKAGES += \
@@ -11,4 +11,4 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.portalrom.trust@1.0-service
